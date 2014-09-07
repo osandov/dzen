@@ -1105,14 +1105,14 @@ main(int argc, char *argv[]) {
 			printf("dzen-"VERSION", (C)opyright 2007-2009 Robert Manea\n");
 			printf(
 			"Enabled optional features: "
-#ifdef DZEN_XMP
-			" XPM "
+#ifdef DZEN_XPM
+			"XPM "
 #endif
 #ifdef DZEN_XFT
-			" XFT"
+			"XFT "
 #endif
 #ifdef DZEN_XINERAMA
-			" XINERAMA "
+			"XINERAMA "
 #endif
 			"\n"
 			);
@@ -1122,7 +1122,7 @@ main(int argc, char *argv[]) {
 			eprint("usage: dzen2 [-v] [-p [seconds]] [-m [v|h]] [-ta <l|c|r>] [-sa <l|c|r>]\n"
                                    "             [-x <pixel|percent%>] [-y <pixel|percent%>] [-w <pixel|percent%>]\n"
                                    "             [-h <pixel|percent%>] [-tw <pixel|percent%>] [-u]\n"
-				   "             [-e <string>] [-l <lines>]  [-fn <font>] [-bg <color>] [-fg <color>]\n"
+				   "             [-e <string>] [-l <lines>] [-fn <font>] [-bg <color>] [-fg <color>]\n"
 				   "             [-geometry <geometry string>] [-expand <left|right>] [-dock]\n"
 				   "             [-title-name <string>] [-slave-name <string>]\n"
 #ifdef DZEN_XINERAMA
