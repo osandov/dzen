@@ -1,0 +1,6 @@
+*.o
+dzen2
+gadgets/dbar
+gadgets/gcpubar
+gadgets/gdbar
+gadgets/textwidth
